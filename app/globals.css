@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; scroll-padding-top: 72px; }
+body { @apply bg-navy text-white font-sans antialiased; }
+
+.reveal { opacity: 0; transform: translateY(20px); transition: opacity .7s ease-out, transform .7s ease-out; }
+.reveal.visible { opacity: 1; transform: translateY(0); }
