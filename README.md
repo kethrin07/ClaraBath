@@ -1,4 +1,4 @@
-# LuxeBath — Prelander
+# ClaraBath — Prelander
 
 Next.js 14 (App Router) + Tailwind CSS. Self-contained, no backend.
 
