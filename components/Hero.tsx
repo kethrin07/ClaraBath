@@ -13,7 +13,7 @@ export default function Hero() {
           </h1>
           <p className="mt-8 max-w-md text-base text-white/75">
             Master craftsmen, premium materials, and a lifetime warranty.
-            Experience timeless luxury — completed in days, not months.
+            Experience timeless luxury - completed in days, not months.
           </p>
           <a
             href="#get-estimate"

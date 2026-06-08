@@ -1,28 +1,28 @@
 const items = [
   {
     title: "Licensed & Insured",
-    body: "Fully bonded craftsmen you can trust in your home.",
-    image: "/Licensed&Insured.png",
+    body: "Every technician on our team is fully licensed, bonded, and insured. We carry comprehensive liability coverage so you never have to worry. Your home and your investment are fully protected from day one.",
+    image: "/licensed-insured.png",
     alt: "Licensed and insured contractor",
     icon: <path d="M12 2l8 4v6c0 5-3.5 9-8 10-4.5-1-8-5-8-10V6l8-4z" />,
   },
   {
     title: "Lifetime Warranty",
-    body: "We stand behind every installation — for life.",
+    body: "We stand behind every installation - for life. If anything we've touched ever fails due to workmanship, we come back and make it right at no cost to you. That's not a promise. That's our standard.",
     image: "/lifetime-warranty.png",
     alt: "Brushed gold fixture lifetime warranty",
     icon: <path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z" />,
   },
   {
     title: "Completed in Days",
-    body: "Most projects finished in as little as 1–3 days.",
+    body: "Most full bathroom remodels are completed in just 1–3 days. Our crews are trained for efficiency without cutting corners, so you're not living through weeks of disruption to get the bathroom you deserve.",
     image: "/completed-in-days.png",
     alt: "Bathroom transformation before and after",
     icon: <><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2" /></>,
   },
   {
     title: "Premium Materials Only",
-    body: "Hand-selected stone, porcelain, and brushed gold.",
+    body: "We source only hand-selected stone, porcelain, and brushed gold hardware from trusted suppliers. Every material is chosen for its durability, beauty, and long-term performance because luxury should last a lifetime.",
     image: "/premium-materials.png",
     alt: "Luxury bathroom material samples",
     icon: <path d="M3 7h18l-2 13H5L3 7zm3-4h12l1 4H5l1-4z" />,
@@ -34,7 +34,7 @@ export default function Benefits() {
     <section id="benefits" className="bg-cream py-24 text-navy">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-16 text-center">
-          <p className="mb-3 text-xs uppercase tracking-[0.3em] text-gold">The ClaraBath Standard</p>
+          <p className="mb-3 text-xs uppercase tracking-[0.3em] text-gold">The Check Bath Homes Standard</p>
           <h2 className="font-serif text-4xl md:text-5xl">Crafted With Uncompromising Quality</h2>
         </div>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

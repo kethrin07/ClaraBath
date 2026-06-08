@@ -20,7 +20,7 @@ export default function TrustSection() {
           <p className="max-w-xl text-white/75">
             Family-owned since 2003, we've transformed thousands of bathrooms into private
             sanctuaries. Every project is backed by our lifetime warranty and managed by a
-            dedicated design consultant — so the experience feels as luxurious as the result.
+            dedicated design consultant, so the experience feels as luxurious as the result.
           </p>
         </div>
         <div className="grid grid-cols-2 gap-4 md:grid-cols-3">

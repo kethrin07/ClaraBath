@@ -20,13 +20,13 @@ export default function Navbar() {
       }}
     >
       <nav className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-6">
-        <a href="#" className="font-serif text-2xl font-semibold text-gold tracking-wide">
-          ClaraBath
+        <a href="#" className="font-serif text-2xl font-semibold tracking-wide" style={{ color: "#8B6914" }}>
+          Check Bath Homes
         </a>
         <ul className="hidden items-center gap-10 md:flex">
           {links.map((l) => (
             <li key={l.href}>
-              <a href={l.href} className="text-sm text-navy/80 transition hover:text-gold">
+              <a href={l.href} className="text-sm text-navy/80 transition hover:text-[#8B6914]">
                 {l.label}
               </a>
             </li>
@@ -34,10 +34,11 @@ export default function Navbar() {
         </ul>
         
           <a href="#get-estimate"
-          className="hidden border border-gold px-5 py-2.5 text-xs font-medium uppercase tracking-widest text-gold transition hover:bg-gold hover:text-navy md:inline-block"
-        >
-          Get Free Estimate
-        </a>
+            className="hidden bg-gold px-5 py-2.5 text-xs font-semibold uppercase tracking-widest text-navy transition hover:brightness-110 md:inline-block"
+          >
+            Get Free Estimate
+          </a>
+
         <button
           aria-label="Menu"
           onClick={() => setOpen((o) => !o)}
