@@ -40,7 +40,7 @@ export default function EstimateForm() {
     (step === 4 && !!data.budget);
 
   return (
-    <section id="get-estimate" className="bg-cream py-24 text-navy">
+    <section id="get-estimate" className="bg-navy py-24 text-white">
       <div className="mx-auto max-w-7xl px-6">
 
         {/* Header */}
