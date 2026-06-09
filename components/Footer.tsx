@@ -10,9 +10,9 @@ export default function Footer() {
 
           {/* Brand col */}
           <div className="md:col-span-1">
-            <div className="font-serif text-2xl text-gold">Check Bath Homes</div>
+            <div className="font-serif text-2xl text-gold">BathQuoteHomes</div>
             <p className="mt-4 text-sm leading-relaxed text-white/55">
-              Connecting homeowners with professional bathroom renovation contractors. Your dream bathroom starts here.
+              BathQuoteHomes connects homeowners across the country with licensed, vetted bathroom renovation contractors. Whether you're planning a full master bath remodel, a tub-to-shower conversion, or a luxury walk-in upgrade. We match you with the right professional at the right price. Get your free estimate in under 60 seconds, no obligation required.
             </p>
           </div>
 
@@ -80,7 +80,7 @@ export default function Footer() {
             <span className="font-semibold text-white/60">Disclaimer:</span> This website offers a free service to assist homeowners in locating contractors within their vicinity. All contractors featured here are independent. This site does not provide any warranties or guarantees for the work carried out. It is the homeowner's responsibility to ensure that the hired contractor possesses the necessary licenses and insurance required for the work they are undertaking.
           </p>
           <p className="text-xs leading-relaxed text-white/40 md:text-right">
-            © {new Date().getFullYear()} Check Bath Homes. All Rights Reserved. We connect homeowners with trusted local bathroom renovation professionals who deliver quality results.
+            © {new Date().getFullYear()} BathQuoteHomes. All Rights Reserved. We connect homeowners with trusted local bathroom renovation professionals who deliver quality results.
           </p>
         </div>
       </div>

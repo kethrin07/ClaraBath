@@ -23,7 +23,7 @@ export default function Navbar() {
     >
       <nav className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-6">
         <a href="#" className="font-serif text-2xl font-semibold tracking-wide" style={{ color: "#8B6914" }}>
-          Check Bath Homes
+          BathQuoteHomes
         </a>
         <ul className="hidden items-center gap-10 md:flex">
           {links.map((l) => (

@@ -34,7 +34,7 @@ export default function Benefits() {
     <section id="benefits" className="bg-cream py-24 text-navy">
       <div className="mx-auto max-w-7xl px-6">
         <div className="mb-16 text-center">
-          <p className="mb-3 text-xs uppercase tracking-[0.3em] text-gold">The Check Bath Homes Standard</p>
+          <p className="mb-3 text-xs uppercase tracking-[0.3em] text-gold">The Bath Quote Homes Standard</p>
           <h2 className="font-serif text-4xl md:text-5xl">Crafted With Uncompromising Quality</h2>
         </div>
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">

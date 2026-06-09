@@ -3,7 +3,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
-  title: "CheckBathHomes - Transform Your Bathroom Into a Private Sanctuary",
+  title: "BathQuoteHomes - Transform Your Bathroom Into a Private Sanctuary",
   description:
     "Premium bathroom remodeling. Licensed, insured, lifetime warranty. Get your free in-home estimate today.",
 };

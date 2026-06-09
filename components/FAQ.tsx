@@ -4,27 +4,35 @@ import { useState } from "react";
 const faqs = [
   {
     q: "How long does a bathroom remodel take?",
-    a: "Most projects are completed in just 1–3 days. Unlike traditional contractors who can take weeks, our crews are trained for efficient, high-quality installation so your daily routine is disrupted as little as possible.",
+    a: "Most projects are completed in just 1 to 3 days. Unlike traditional contractors who can take weeks or even months, our crews are specifically trained for efficient, high-quality installation. We come in with a clear plan, the right materials, and a dedicated team so your daily routine is disrupted as little as possible. In many cases, homeowners are using their new bathroom the very next day.",
   },
   {
     q: "Do I need to leave my home during the remodel?",
-    a: "No — you're welcome to stay home throughout the process. Our crew respects your space, keeps work areas contained, and cleans up thoroughly at the end of each day.",
+    a: "Not at all. You are completely welcome to stay home throughout the entire process. Our crew is trained to respect your space and your schedule. Work areas are fully contained with protective coverings, and the team cleans up thoroughly at the end of every single day. Most homeowners barely notice the work happening beyond the room being remodeled.",
   },
   {
     q: "What's included in the free estimate?",
-    a: "A dedicated design consultant visits your home, takes measurements, discusses your vision and budget, and creates a fully itemised proposal — at no cost and no obligation to proceed.",
+    a: "A dedicated design consultant visits your home at a time that works for you. They take precise measurements, walk through your vision and style preferences, discuss your budget honestly, and put together a fully itemised proposal covering materials, labour, and timeline. There is absolutely no cost for this visit and no obligation to move forward if you decide it is not the right fit.",
   },
   {
     q: "Is financing available?",
-    a: "Yes. We offer flexible financing options including 0% APR plans for qualified homeowners. Your consultant will walk you through available options during your free in-home estimate.",
+    a: "Yes, we offer a range of flexible financing options to make your dream bathroom accessible regardless of your budget. This includes 0% APR plans for qualified homeowners, extended payment terms, and low monthly payment structures. Your design consultant will walk you through every available option during your free in-home estimate so you can choose what works best for your financial situation.",
   },
   {
     q: "Are your contractors licensed and insured?",
-    a: "Every contractor in our network is fully licensed, bonded, and insured. We verify credentials before any work begins so you never have to worry about liability or quality.",
+    a: "Every single contractor in our network is fully licensed, bonded, and insured before they ever set foot in a client's home. We conduct thorough credential verification and background checks as part of our vetting process. You will never have to worry about liability, workmanship quality, or who is in your home. We only work with professionals who meet our strict standards.",
   },
   {
     q: "What if I'm not happy with the result?",
-    a: "We back every installation with a lifetime warranty on workmanship. If anything we've done ever fails or doesn't meet your expectations, we return and make it right — at no cost to you.",
+    a: "Your satisfaction is backed by a lifetime warranty on all workmanship. If anything we have installed ever fails or does not meet your expectations for any reason, we will return and make it right at absolutely no cost to you. We have built our reputation over two decades on the quality of our results and the trust of our clients, and we take that responsibility seriously.",
+  },
+  {
+    q: "What areas do you service?",
+    a: "We currently serve homeowners across the United States with a growing network of licensed contractors in most major metropolitan areas and surrounding suburbs. When you enter your ZIP code in our estimate form, we instantly match you with qualified professionals operating in your specific area. If we do not yet have coverage in your region, we will let you know right away rather than waste your time.",
+  },
+  {
+    q: "How is BathQuoteHomes different from hiring a contractor directly?",
+    a: "When you hire a contractor directly, you take on the full risk of vetting their credentials, negotiating pricing, and managing the project yourself. BathQuoteHomes does all of that for you. We pre-screen every contractor in our network, provide you with competitive quotes from multiple professionals, and support you through the entire process. You get better pricing, verified quality, and complete peace of mind.",
   },
 ];
 
