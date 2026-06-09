@@ -1,5 +1,5 @@
 "use client";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 
 const reviews = [
   {
@@ -61,7 +61,14 @@ function Stars() {
 export default function Testimonials() {
   const [index, setIndex] = useState(0);
   const isAnimating = useRef(false);
-  const visibleCount = 3;
+  const [visibleCount, setVisibleCount] = useState(3);
+
+  useEffect(() => {
+    const update = () => setVisibleCount(window.innerWidth < 768 ? 1 : 3);
+    update();
+    window.addEventListener("resize", update);
+    return () => window.removeEventListener("resize", update);
+  }, []);
   const maxIndex = reviews.length - visibleCount;
 
   const slide = (dir: "left" | "right") => {
@@ -88,13 +95,13 @@ export default function Testimonials() {
           <div
             className="flex gap-6 transition-transform duration-400 ease-in-out"
             style={{
-              transform: `translateX(calc(-${index} * (100% / ${visibleCount} + 8px)))`,
+              transform: `translateX(calc(-${index} * (100% / ${visibleCount} + ${visibleCount === 1 ? "0px" : "8px"})))`,
             }}
           >
             {reviews.map((r) => (
               <div
                 key={r.name}
-                className="w-[calc(33.333%-16px)] flex-none bg-white p-8 shadow-[0_4px_24px_rgba(13,27,42,0.08)] flex flex-col"
+                className="w-[calc(100%-0px)] md:w-[calc(33.333%-16px)] flex-none bg-white p-8 shadow-[0_4px_24px_rgba(13,27,42,0.08)] flex flex-col"
               >
                 <p className="mb-4 text-xs uppercase tracking-[0.25em] text-gold">{r.project}</p>
                 <Stars />
