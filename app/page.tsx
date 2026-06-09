@@ -4,6 +4,7 @@ import ByTheNumbers from "@/components/ByTheNumbers";
 import HowItWorks from "@/components/HowItWorks";
 import Testimonials from "@/components/Testimonials";
 import TrustSection from "@/components/TrustSection";
+import BathroomStyleQuiz from "@/components/BathroomStyleQuiz";
 import EstimateForm from "@/components/EstimateForm";
 import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
@@ -18,6 +19,7 @@ export default function Page() {
       <Reveal><ByTheNumbers /></Reveal>
       <Reveal><TrustSection /></Reveal>
       <Reveal><Testimonials /></Reveal>
+      <Reveal><BathroomStyleQuiz /></Reveal>
       <Reveal><EstimateForm /></Reveal>
       <Reveal><FAQ /></Reveal>
       <Footer />
