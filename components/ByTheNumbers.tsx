@@ -61,7 +61,7 @@ function CountUp({ target, suffix, duration = 2000 }: { target: number; suffix: 
 
 export default function ByTheNumbers() {
   return (
-    <section className="bg-cream py-24">
+    <section id="numbers" className="bg-cream py-24">
       <div className="mx-auto max-w-7xl px-6">
 
         {/* Header */}

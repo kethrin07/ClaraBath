@@ -20,16 +20,13 @@ export default function Footer() {
           <div>
             <h4 className="mb-5 text-xs font-semibold uppercase tracking-widest text-white">Quick Links</h4>
             <ul className="space-y-3">
-              {["Benefits", "How It Works", "Testimonials", "About"].map((item) => (
-                <li key={item}>
-                  
-                  <a href={`#${item.toLowerCase().replace(/\s+/g, "-")}`}
-                    className="text-sm text-white/55 transition hover:text-gold"
-                  >
-                    {item}
-                  </a>
-                </li>
-              ))}
+                <li><a href="#benefits" className="text-sm text-white/55 transition hover:text-gold">Benefits</a></li>
+                <li><a href="#how" className="text-sm text-white/55 transition hover:text-gold">How It Works</a></li>
+                <li><a href="#numbers" className="text-sm text-white/55 transition hover:text-gold">By The Numbers</a></li>
+                <li><a href="#testimonials" className="text-sm text-white/55 transition hover:text-gold">Testimonials</a></li>
+                <li><a href="#about" className="text-sm text-white/55 transition hover:text-gold">About</a></li>
+                <li><a href="#faq" className="text-sm text-white/55 transition hover:text-gold">FAQ</a></li>
+                <li><a href="#get-estimate" className="text-sm text-white/55 transition hover:text-gold">Get Free Estimate</a></li>
             </ul>
           </div>
 
